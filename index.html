@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
-    <script src="js/scripts.js" charset="utf-8"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Language Suggester</title>
-  </head>
-  <body> <br>
-    <h3> Which programming language should you learn? </h3> <br>
-    <div class="container">
-      <form id="language">
-        <form id='form1'>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Language Suggester</title>
+</head>
+
+<body> <br>
+  <h3> Which programming language should you learn? </h3> <br>
+  <div class="container">
+    <form id="language">
+      <form id='form1'>
+        
         <div class="radio">
-          <label> What do you want to be making using a programming language?</label>
-            <input type=radio name="usability" value="1" id="C#"> Games & Windows desktop apps
+          <h4>What do you want to be making using a programming language? </h4>
+          <label>Games & Windows desktop apps</label>
+          <input type=radio name="usability" value="1" id="C#">
         </div>
 
-    </form>
-    </div>
+        <div class="radio">
+          <label> 2D images & 3D animation </label>
+            <input type=radio name="usability" value="2" id="JavaSc">
+        </div>
+
+        <div class="radio">
+          <label>Websites </label>
+            <input type=radio name="usability" value="3" id="Python">
+        </div> <br>
+
+      </form>
+  </div>
 </body>
+
 </html>
