@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  text-align: center;
+  margin-left: auto;
+  min-width: 400px;
+}
+
+nav ol li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 25px;
+}
+
+
+.main {
+  padding: 16px;
+}
