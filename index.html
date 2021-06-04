@@ -12,68 +12,74 @@
 </head>
 
 <body> <br>
-  <nav>
-    <ol>
-      <li> <a href='js.html'> JavaScript </a> </li>
-      <li> <a href='python.html'> Python </a></li>
-      <li> <a href='c#.html'> C# </a> </li>
-    </ol>
-  </nav>
+  <div class="hero-image">
+    <nav>
+      <ol>
+        <li> <a href='js.html'> JavaScript </a> </li>
+        <li> <a href='python.html'> Python </a></li>
+        <li> <a href='c#.html'> C# </a> </li>
+      </ol>
+    </nav>
+    <div class="hero-text">
+      <h3> WHICH PROGRAMMING LANGUAGE <br><br>SHOULD YOU LEARN? </h3> <br>
+    </div>
+  </div>
+</br>
   <div class='main'>
-    <h3> Which programming language should you learn? </h3> <br>
     <div class='wrapper'>
       <div class="question1">
         <form id="language">
           <div class="radio">
-            <h4>What do you want to be making using a programming language? </h4>
-            <label>Games & Windows desktop apps</label>
+            <h6>What do you want to be making using a programming language? </h6>
             <input type=radio name="usability" value="1" id="C#">
+            <label>Games & Windows desktop apps</label>
           </div>
           <div class="radio">
-            <label> 2D images & 3D animation </label>
             <input type=radio name="usability" value="2" id="JavaSc">
+            <label> 2D images & 3D animation </label>
           </div>
           <div class="radio">
-            <label>Websites </label>
             <input type=radio name="usability" value="3" id="Python">
+            <label>Websites </label>
           </div> <br>
       </div>
 
 
       <div class="question2">
         <div class="radio">
-          <h4>What characteristics do you value the most in a language?</h4>
-          <label>Scalability & speed</label>
+          <h6>What characteristics do you value the most in a language?</h6>
           <input type=radio name="characteristics" value="1" id="C#">
+          <label>Scalability & speed</label>
         </div>
 
         <div class="radio">
-          <label> Simplicity & iteroperability </label>
           <input type=radio name="characteristics" value="2" id="JavaSc">
+          <label> Simplicity & iteroperability </label>
         </div>
 
         <div class="radio">
-          <label>Flexibility & readability </label>
           <input type=radio name="characteristics" value="3" id="Python">
+          <label>Flexibility & readability </label>
         </div> <br>
       </div>
 
       <div class="question3">
         <div class="radio">
-          <h4>What are your strongest skills? </h4>
-          <label>Logical thinking </label>
+          <h6>What are your strongest skills? </h6>
           <input type=radio name="skills" value="1" id="C#">
+          <label>Logical thinking </label>
         </div>
 
         <div class="radio">
-          <label> Good communication skills </label>
           <input type=radio name="skills" value="2" id="JavaSc">
+          <label> Good communication skills </label>
         </div>
 
         <div class="radio">
-          <label>Problem solving & abstract thinking </label>
           <input type=radio name="skills" value="3" id="Python">
+          <label>Problem solving & abstract thinking </label>
         </div> <br>
+        <button type="submit"> Submit </button>
         </form>
       </div>
     </div>
