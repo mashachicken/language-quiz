@@ -6,8 +6,9 @@ $(document).ready(function () {
     var secondInput = parseInt($("input:radio[name=skills]:checked").val());
     var thirdInput = parseInt($("input:radio[name=characteristics]:checked").val());
     var fourthInput = parseInt($("input:radio[name=name]:checked").val());
+    var fithInput = parseInt($("input:radio[name=like]:checked").val());
     var total = (firstInput + secondInput + thirdInput + fourthInput);
-    console.log(thirdInput);
+    console.log(thirdInput + fithInput);
     if (total <= 5) {
       $("#cresult").toggle();
       $("#javascresult").hide();
@@ -18,11 +19,13 @@ $(document).ready(function () {
       $("#pythonresult").hide();
     } else if (total >= 10) {
       console.log('python');
-      $("#pythonresult").()
+      $("#pythonresult").toggle()
       $("#cresult").hide();
       $("#javascresult").hide();
     } else {
-      alert("what have you done?!")
+      $("#pythonresult").toggle()
+      $("#cresult").hide();
+      $("#javascresult").hide();
     }
   });
 });

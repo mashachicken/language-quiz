@@ -11,7 +11,7 @@
   <title>Language Suggester</title>
 </head>
 
-<body> 
+<body>
   <div class="hero-image">
     <nav>
       <ol>
@@ -24,8 +24,22 @@
       <h3> WHICH PROGRAMMING LANGUAGE <br><br>SHOULD YOU LEARN? </h3> <br>
     </div>
   </div>
-</br>
+  </br>
   <div class='main'>
+    <div id="cresult" class=".text-secondary">
+      <h4 class="text-primary">You should learn ...!</h4>
+      <a href="c.html"> SEE RESULT!</a>
+    </div>
+
+    <div id="javascresult" class=".text-secondary">
+      <h4 class="text-primary"> You should learn...</h4>
+      <a href="js.html">SEE RESULT!</a>
+    </div>
+
+    <div id="pythonresult" class=".text-secondary">
+      <h4 class="text-primary">You should learn...</h4>
+      <a href="python.html">SEE RESULT!</a>
+    </div>
     <div class='wrapper'>
       <div class="question1">
         <form id="language">
@@ -74,14 +88,51 @@
           <input type=radio name="skills" value="2" id="JavaSc">
           <label> Good communication skills </label>
         </div>
-
+        
         <div class="radio">
           <input type=radio name="skills" value="3" id="Python">
           <label>Problem solving & abstract thinking </label>
         </div> <br>
+      </div>
+
+      <div class="question4">
+        <div class="radio">
+          <h6>What name do you like most? </h6>
+          <input type=radio name="name" value="1" id="C#"> C#
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type=radio name="name" value="2" id="JavaSc"> JavaScript
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type=radio name="name" value="3" id="Python"> Python
+          </label>
+        </div>
+      </div>
+
+      <div class="question5">
+        <div class="radio">
+          <h6>What do you want to learn? </h6>
+          <input type=radio name="like" value="1" id="C#"> C#
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type=radio name="like" value="2" id="JavaSc"> JavaScript
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type=radio name="like" value="3" id="Python"> Python
+          </label>
+        </div>
+      </div>
+
         <button type="submit"> Submit </button>
         </form>
-      </div>
     </div>
   </div>
 </body>
