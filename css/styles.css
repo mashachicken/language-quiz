@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+body {
+  background-color:rgb(224, 224, 224);
+}
 .hero-image {
   font-family: 'sequel sans body';
   height: 450px;
@@ -24,7 +27,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 nav {
@@ -79,4 +81,23 @@ h6 {
 
 #cresult, #javascresult, #pythonresult {
   display:none;
+}
+
+.box {
+  margin-top: 20vh;
+  width: 80%;
+  height: 65vh;
+  font-size: 20px;
+  line-height: 2em;
+  text-align:left !important;
+  color: #282828;
+  background-color: rgba(255, 255, 255, 0.548);
+  padding: 2em 16px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
