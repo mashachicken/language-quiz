@@ -7,6 +7,7 @@
 body {
   background-color:rgb(224, 224, 224);
 }
+
 .hero-image {
   font-family: 'sequel sans body';
   height: 450px;
@@ -49,6 +50,10 @@ nav ol li a {
   text-decoration:  none;
 }
 
+nav ol li a:hover {
+  color: #ccff00;
+  text-decoration:  none;
+}
 .main {
  padding: 0px 16px;
 }
@@ -56,13 +61,12 @@ nav ol li a {
 h6 {
   font-weight: bolder;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:center
-  
-
 }
 
 .question1, .question2, .question3, .question4, .question5{
@@ -86,13 +90,12 @@ h6 {
 .box {
   margin-top: 20vh;
   width: 80%;
-  height: 65vh;
   font-size: 20px;
   line-height: 2em;
   text-align:left !important;
   color: #282828;
   background-color: rgba(255, 255, 255, 0.548);
-  padding: 2em 16px;
+  padding: 2em 16px 20px 16px;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
@@ -100,4 +103,31 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  float: right;
+}
+
+.home {
+  background: #ccff00;
+  color: #000000;
+  border: solid 0.1em;
+  border-color: #000000;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
+.submit {
+  background-color: #ccff00;
+}
+
+.result {
+  color: #000000;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 30px;
 }
